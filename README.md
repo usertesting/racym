@@ -1,3 +1,4 @@
+[![Code Climate](https://codeclimate.com/repos/5201496e13d63737fe02ef40/badges/f0725a19d7b49faabf75/gpa.png)](https://codeclimate.com/repos/5201496e13d63737fe02ef40/feed)
 # Racym
 
 Rails Application Configuration for Yield Main (RACYM)
