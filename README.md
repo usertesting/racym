@@ -1,5 +1,5 @@
 [![CircleCi](https://circleci.com/gh/usertesting/racym.png?circle-token=90e7657b15e2f2674ac0b8fda22458ee74bae580)](https://circleci.com/gh/usertesting/racym)
-[![Code Climate](https://codeclimate.com/repos/5201496e13d63737fe02ef40/badges/f0725a19d7b49faabf75/gpa.png)](https://codeclimate.com/repos/5201496e13d63737fe02ef40/feed)
+[![Code Climate](https://codeclimate.com/github/usertesting/racym.png)](https://codeclimate.com/github/usertesting/racym)
 # Racym
 
 Rails Application Configuration for Yield Main (RACYM)
