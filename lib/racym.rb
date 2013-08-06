@@ -12,6 +12,7 @@ end
 
 def racym_set(*args)
   Rails.application.config.racym_cache ||= {}
+  
   after = args.pop
   before = racym(*args)
   token = args.map(&:to_s).join('.').split('.').join('.')
