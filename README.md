@@ -10,19 +10,74 @@ racym is used as a shortcut to rails configuration.
 
 Add this line to your application's Gemfile:
 
-    gem 'racym'
+```ruby
+gem "racym"
+```
 
 And then execute:
 
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install racym
+```ruby
+$ bundle install
+```
 
 ## Usage
 
-TODO: Write usage instructions here
+### Setting config values
+
+In your `config/application.rb` add config settings:
+
+```ruby
+module MyApp
+  class Application < Rails::Application
+
+  ...
+
+  # Add a custom config setting here:
+  config.foo = "bar"
+
+  # Or a proc:
+  config.biz = -> { DateTime.current }
+```
+
+### Getting config values
+
+From anywhere in your Rails application (controllers/helpers/views - should be available anywhere!)
+
+```ruby
+puts racym(:foo)
+# => "bar"
+
+puts racym(:biz)
+# => Wed, 02 Oct 2019 11:13:20 -0700
+
+# ten minutes later:
+puts racym(:biz)
+# => Wed, 02 Oct 2019 11:23:20 -0700
+```
+
+### Multilevel key/values
+
+#### Setting:
+
+```ruby
+module MyApp
+  class Application < Rails::Application
+
+  ...
+
+  config.foo.username = "BAR"
+  config.foo.password = "BIZ"
+```
+
+#### Getting:
+
+```ruby
+puts racym(:foo, :username)
+# => "BAR"
+
+puts racym(:foo, :password)
+# => "BIZ"
+```
 
 ## License
 
