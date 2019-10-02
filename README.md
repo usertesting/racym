@@ -1,12 +1,10 @@
-[![Build Status](https://travis-ci.org/usertesting/racym.png)](https://travis-ci.org/usertesting/racym)
+# racym
 
-[![Code Climate](https://codeclimate.com/github/usertesting/racym.png)](https://codeclimate.com/github/usertesting/racym)
-
-# Racym
+[![Travis](https://img.shields.io/travis/usertesting/racym?style=for-the-badge)](https://travis-ci.org/usertesting/racym) [![Coveralls github](https://img.shields.io/coveralls/github/usertesting/racym?style=for-the-badge)](https://coveralls.io/github/usertesting/racym) [![Code Climate maintainability](https://img.shields.io/codeclimate/maintainability/usertesting/racym?style=for-the-badge)](https://codeclimate.com/github/usertesting/racym)
 
 Rails Application Configuration for Yield Main (RACYM)
 
-Racym is used as a shortcut to rails configuration.
+racym is used as a shortcut to rails configuration.
 
 ## Installation
 
