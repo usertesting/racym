@@ -1,3 +1,9 @@
+begin
+  require "coveralls"
+  Coveralls.wear!
+rescue LoadError
+end
+
 require_relative '../../lib/racym'
 
 # Stub class for Rails.application.config
