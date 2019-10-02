@@ -26,6 +26,14 @@ Or install it yourself as:
 
 TODO: Write usage instructions here
 
+## License
+
+[MIT](LICENSE).
+
+Library created by [UserTesting](https://usertesting.com)
+
+![UserTesting](doc/UserTesting.png)
+
 ## Contributing
 
 1. Fork it
