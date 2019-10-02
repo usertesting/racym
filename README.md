@@ -79,6 +79,32 @@ puts racym(:foo, :password)
 # => "BIZ"
 ```
 
+### Testing
+
+There's some convenient methods you can use to test code using racym:
+  - `racym_set`
+  - `racym_undo!`
+
+For example, to test this simple method:
+
+```ruby
+class Foo
+  def self.hi
+    "Hi #{racym :person_to_hi}"
+  end
+end
+```
+
+```ruby
+describe Foo do
+  describe ".hi" do
+    before  { racym_set :person_to_hi, "Dave" }
+    specify { expect(Foo.hi).to eq "Hi Dave"  }
+    after   { racym_undo! }
+  end
+end
+```
+
 ## License
 
 [MIT](LICENSE).
