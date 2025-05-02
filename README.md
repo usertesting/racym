@@ -1,3 +1,7 @@
+> # Archival Notice
+> 
+> This repository will no longer be maintained by UserTesting, and will be archived in the near future. The most recent version of this gem will still be published and available to use. Thank you to everyone who contributed to this project!
+
 # racym
 
 [![Travis](https://img.shields.io/travis/usertesting/racym?style=for-the-badge)](https://travis-ci.org/usertesting/racym) [![Coveralls github](https://img.shields.io/coveralls/github/usertesting/racym?style=for-the-badge)](https://coveralls.io/github/usertesting/racym) [![Code Climate maintainability](https://img.shields.io/codeclimate/maintainability/usertesting/racym?style=for-the-badge)](https://codeclimate.com/github/usertesting/racym)
